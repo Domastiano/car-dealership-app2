@@ -80,7 +80,12 @@ const Register = () => {
             <img src={email_icon} className="img_icon" alt='Email'/>
             <input type="email"  name="email" placeholder="email" className="input_field" onChange={(e) => setEmail(e.target.value)}/>
           </div>
-
+<input placeholder="Username" />
+<input placeholder="First Name" />
+<input placeholder="Last Name" />
+<input placeholder="Email" />
+<input placeholder="Password" />
+<button>Register</button>
           <div className="input">
             <img src={password_icon} className="img_icon" alt='password'/>
             <input name="psw" type="password"  placeholder="Password" className="input_field" onChange={(e) => setPassword(e.target.value)}/>
