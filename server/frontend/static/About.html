@@ -1,71 +1,43 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-        <h1 class="about">About Us</h1>
-        Welcome to Best Cars dealership, home to the best cars in North America. We deal in sale of domestic and imported cars at reasonable prices.
-        We pride ourselves in providing the best cars and services to our customers. Our quality cars and services has made us the best in North America
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/p1.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Jake Jokers</p>
-          <p class="position">Regional Director</p>
-          <p class="card-text">IMBA Award winner with over 30 years experience in Business Management and Car Sales </p>
-          <p class="link">jakejok@.bestcarscom</p>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">CarDealership</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+            </ul>
         </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/p3.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Leona Mary</p>
-          <p class="position">Sales and Customer Relations Manager</p>
-          <p class="card-text">Seasoned professional with excellent customer service and sales records</p>
-          <p class="link">leomary@bestcars.com</p>
+    </nav>
+    <div class="container mt-5">
+        <h1>About Us</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/static/images/team1.jpg" class="img-fluid rounded-circle">
+                <h3>John Smith</h3>
+                <p>CEO & Founder</p>
+                <p>john.smith@cardealership.com</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/static/images/team2.jpg" class="img-fluid rounded-circle">
+                <h3>Jane Doe</h3>
+                <p>Sales Manager</p>
+                <p>jane.doe@cardealership.com</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/static/images/team3.jpg" class="img-fluid rounded-circle">
+                <h3>Mike Johnson</h3>
+                <p>Customer Support Lead</p>
+                <p>mike.johnson@cardealership.com</p>
+            </div>
         </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/p2.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Kenny James </p>
-          <p class="position">Brand Manager</p>
-          <p class="card-text">Exceptional strategist and manager with great brand promotion and management skils </p>
-          <p class="link">kjames@bestcars.com</p>
-        </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+</body>
 </html>
